@@ -1,0 +1,82 @@
+{
+	"name": "plg_search_contentghsvs",
+	"nameReal": "plg_search_contentghsvs",
+	"filename": "contentghsvs",
+	"version": "2022.01.26",
+	"versionCompare": "2022.01.26",
+	"update": {
+		"type": "plugin",
+		"folder": "search",
+		"client": "site",
+		"tag": "stable",
+		"targetplatform": [
+			"3.*"
+		]
+	},
+	"releaseTxt": {
+		"title": "Joomla com_search plugin ContentGhsvs",
+		"requires": [
+			"Joomla component com_search"
+		]
+	},
+	"changelog": {
+		"projecturl": "https://github.com/GHSVS-de/plg_search_contentghsvs",
+		"infosDE": "",
+		"infosEN": "https://github.com/GHSVS-de/plg_search_contentghsvs#readme",
+		"docsDE": "",
+		"docsEN": "",
+		"lastTests": [
+			"PHP 8.0",
+			"Joomla 3.10.5"
+		]
+	},
+	"minimumPhp": "7.4.0",
+	"maximumPhp": "8.99999.99999",
+	"minimumJoomla": "3.10.0",
+	"maximumJoomla": "3.9999.9999",
+	"allowDowngrades": "1",
+	"creationDate": "2022-01-26",
+	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
+	"copyright": "(C) 2022, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)",
+	"author": {
+		"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+		"email": "",
+		"url": "https://ghsvs.de"
+	},
+	"contributors": [
+		{
+			"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+			"email": "",
+			"url": "https://ghsvs.de"
+		}
+	],
+	"bugs": "https://github.com/GHSVS-de/plg_search_contentghsvs/issues",
+	"homepage": "https://github.com/GHSVS-de/plg_search_contentghsvs#readme",
+	"keywords": [
+		"joomla",
+		"search plugin",
+		"com_search"
+	],
+	"private": false,
+	"description": "Joomla com_search plugin. Enables searching in articles. Like Joomla's core plugin plg_search_content but you can disable title prioritisation (\"matching titles always first in serch results\"). <b style='color:red'>Before usage: Disable Joomla's core plg_search_content!</b>",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GHSVS-de/plg_search_contentghsvs.git"
+	},
+	"scripts": {
+		"g-build": "node build.js",
+    "g-npm-update-check": "npm outdated",
+    "g-npm-update": "npm update --save-dev"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"adm-zip": "0.5.9",
+		"picocolors": "^1.0.0",
+		"fs-extra": "10.0.0",
+		"path": "^0.12.7",
+		"rimraf": "3.0.2"
+	},
+	"browserslist": []
+}
