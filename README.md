@@ -1,5 +1,7 @@
 # plg_search_contentghsvs
 
+Joomla com_search plugin. Enables searching in articles. Like Joomla's core plugin plg_search_content but you can disable title prioritisation (\"matching titles always first in serch results\"). <b style='color:red'>Before usage: Disable Joomla's core plg_search_content!</b>
+
 -----------------------------------------------------
 
 # My personal build procedure (WSL 1, Debian, Win 10)
